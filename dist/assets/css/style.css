@@ -493,9 +493,90 @@ body {
     top: 0;
     right: 0;
     z-index: 1000;
+    display: flex;
     width: calc(100% - 300px);
-    height: 30px;
-    background-color: #444444;
+    background-color: #0d0d0d;
+    box-shadow: 0 5px 22px rgba(0, 0, 0, 0.25);
+}
+
+.header__left {
+    width: 60%;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__item:hover .nav__link {
+    background-color: #3137c9;
+}
+
+.nav__item:hover > .subnav {
+    display: block;
+}
+
+.nav__link {
+    display: block;
+    padding: 1.35em;
+    font-size: 1.1rem;
+    line-height: 1.2;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+
+.nav__link.has-subnav {
+    position: relative;
+    padding-right: 3.5rem;
+}
+
+.nav__link.has-subnav:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 1.35rem;
+    display: block;
+    margin-top: 2px;
+    border-width: 6px 5px 0 5px;
+    border-style: solid;
+    border-color: #ffffff transparent transparent transparent;
+    transform: translateY(-50%);
+}
+
+.subnav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    width: 165px;
+    padding: 0.5rem 0;
+    background-color: #3137c9;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subnav__link {
+    display: block;
+    padding: 0.45rem 1.2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s linear;
+}
+
+.subnav__link:hover {
+    background-color: #2c31b4;
 }
 
 .sidebar {
@@ -624,4 +705,33 @@ body {
 
 .btn--blue:hover {
     background-color: #2c31b4;
+}
+
+.search {
+    width: 100%;
+    max-width: 21rem;
+    background-color: #202020;
+}
+
+.search__input {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-family: inherit;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+}
+
+.search__input::-moz-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.search__input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.search__input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
 }

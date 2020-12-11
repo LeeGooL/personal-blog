@@ -4,8 +4,19 @@
   right: 0;
   z-index: $z-index-header;
 
+  display: flex;
   width: calc(100% - #{$sidebar-width});
-  height: 30px;
 
-  background-color: #444444;
+  background-color: #0d0d0d;
+  box-shadow: 0 5px 22px rgba($black, 0.25);
+}
+
+.header__left {
+  width: 60%;
+}
+
+.header__right {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
 }

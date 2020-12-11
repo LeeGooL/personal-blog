@@ -51,9 +51,12 @@ body {
 /* Blocks */
 @import "blocks/page";
 @import "blocks/header";
+@import "blocks/nav";
+@import "blocks/subnav";
 @import "blocks/sidebar";
 @import "blocks/main";
 @import "blocks/container";
 @import "blocks/profile";
 @import "blocks/social";
 @import "blocks/btn";
+@import "blocks/search";
