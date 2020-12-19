@@ -14,7 +14,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     
-    <title>HomePage</title>
+    <title>Home</title>
   </head>
   <body>
     <div class="page">
@@ -24,7 +24,7 @@
           <nav class="nav">
             <ul class="nav__list">
               <li class='nav__item'>
-                <a class="nav__link" href="#!">Главная</a>
+                <a class="nav__link" href="index.html">Главная</a>
               </li>
               <li class='nav__item'>
                 <a class="nav__link has-subnav" href="#!">
@@ -72,7 +72,7 @@
       <!-- Sidebar -->
       <aside class="sidebar">
         <div class="sidebar__header">
-          <img src="assets/img/sidebar/sidebar-header.jpg" alt="" />
+          <img src="assets/img/index/sidebar/sidebar-header.jpg" alt="" />
         </div>
       
         <div class="sidebar__content">
@@ -84,19 +84,19 @@
             <ul class="social">
               <li class="social__item">
                 <a class="social__link" href="#!">
-                  <img src="assets/img/svg/instagram.svg" alt="instagram" />
+                  <img src="assets/img/index/svg/instagram.svg" alt="instagram" />
                 </a>
               </li>
       
               <li class="social__item">
                 <a class="social__link" href="#!">
-                  <img src="assets/img/svg/vk.svg" alt="vk" />
+                  <img src="assets/img/index/svg/vk.svg" alt="vk" />
                 </a>
               </li>
       
               <li class="social__item">
                 <a class="social__link" href="#!">
-                  <img src="assets/img/svg/pinterest.svg" alt="pinterest" />
+                  <img src="assets/img/index/svg/pinterest.svg" alt="pinterest" />
                 </a>
               </li>
             </ul>
@@ -125,7 +125,7 @@
   <div class="stories__item">
     <img
       class="stories__preview"
-      src="assets/img/stories/stories-1.jpg"
+      src="assets/img/index/stories/stories-1.jpg"
       alt=""
     />
     <div class="stories__title">Отдыхаю на природе</div>
@@ -135,7 +135,7 @@
   <div class="stories__item">
     <img
       class="stories__preview"
-      src="assets/img/stories/stories-2.jpg"
+      src="assets/img/index/stories/stories-2.jpg"
       alt=""
     />
     <div class="stories__title">Заканчиваю сложный проект</div>
@@ -145,7 +145,7 @@
   <div class="stories__item">
     <img
       class="stories__preview"
-      src="assets/img/stories/stories-3.jpg"
+      src="assets/img/index/stories/stories-3.jpg"
       alt=""
     />
     <div class="stories__title">Переехал в новую квартиру</div>
@@ -155,7 +155,7 @@
   <div class="stories__item">
     <img
       class="stories__preview"
-      src="assets/img/stories/stories-4.jpg"
+      src="assets/img/index/stories/stories-4.jpg"
       alt=""
     />
     <div class="stories__title">Осень пришла!</div>
@@ -180,7 +180,7 @@
       </label>
 
       <button class="add-post__send" type="submit">
-        <img src="assets/img/add-post/send.svg" alt="Отправить" />
+        <img src="assets/img/index/add-post/send.svg" alt="Отправить" />
       </button>
     </div><!-- /.add-post__form-actions -->
   </form>
@@ -191,7 +191,7 @@
 <!-- Post-1 -->
 <div class="post">
   <div class="post__content">
-    <p class="post__text">
+    <p class="post__desctiption">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
       facilis repellat fuga ullam est expedita quasi magni exercitationem hic
       earum possimus, provident quae perferendis, voluptate veniam et modi
@@ -211,34 +211,12 @@
 
 
 <!-- Post-2 -->
-<div class="post">
-  <div class="post__content">
-    <p class="post__text">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
-      facilis repellat fuga ullam est expedita quasi magni exercitationem hic
-      earum possimus, provident quae perferendis, voluptate veniam et modi
-      asperiores libero!
-    </p>
-  </div><!-- /.post__content -->
-
-  <div class="post__footer">
-    <ul class="post__data">
-      <li class="post__data-item">
-        <time datetime="2020-06-21 19:20">21.06.2020</time>
-      </li>
-    </ul>
-  </div><!-- /.post__footer -->
-</div><!-- /.post -->
-
-
-
-<!-- Post-3 -->
 <article class="post">
-  <div class="post__header">
+  <div class="post__header post__header--preview">
     <a href="#">
       <img
         class="post__preview"
-        src="assets/img/posts/post-2.jpg"
+        src="assets/img/index/posts/post-2.jpg"
         alt="Как писать код быстро и безболезненно?"
       />
     </a>
@@ -246,9 +224,9 @@
 
   <div class="post__content">
     <h2 class="post__title">
-      <a href="#">Как писать код быстро и безболезненно?</a>
+      <a href="post.html">Как писать код быстро и безболезненно?</a>
     </h2>
-    <p class="post__text">
+    <p class="post__description">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
       facilis repellat fuga ullam est expedita quasi magni exercitationem hic
       earum possimus, provident quae perferendis, voluptate veniam et modi
@@ -266,7 +244,42 @@
       </li>
     </ul>
 
-    <a class="post__read" href="#">читать</a>
+    <a class="post__read" href="post.html">читать</a>
+  </div><!-- /.post__footer -->
+</article><!-- /.post -->
+
+
+
+<!-- Post-3 -->
+<article class="post">
+  <div class="post__header">
+    <div class="embed">
+      <iframe
+        src="https://www.youtube.com/watch?v=i0YvfDNFpwg"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+
+  <div class="post__content">
+    <h2 class="post__title">
+      <a href="post.html">Купил новый ноутбук за 150 000 руб</a>
+    </h2>
+  </div>
+
+  <div class="post__footer">
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="#">продвижение видео</a>
+      </li>
+    </ul>
+
+    <a class="post__read" href="#">оставить комментарий</a>
   </div><!-- /.post__footer -->
 </article><!-- /.post -->
 
@@ -274,89 +287,64 @@
 
 <!-- Post-4 -->
 <article class="post">
-  <div class="post__header  post__header--video">
-      <div class="embed">
-        <iframe src="https://www.youtube.com/watch?v=i0YvfDNFpwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+  <div class="post__header post__header-preview">
+    <a href="#">
+      <img
+        class="post__preview"
+        src="assets/img/index/posts/post-3.jpg"
+        alt="Как я сходил на FrontEnd Conf 2021"
+      />
+    </a>
   </div>
 
   <div class="post__content">
-      <h2 class="post__title">
-          <a href="#">Купил новый ноутбук за 150 000 руб</a>
-      </h2>
+    <h2 class="post__title">
+      <a href="post.html">Как я сходил на FrontEnd Conf 2021</a>
+    </h2>
+    <p class="post__description">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus
+      facilis repellat fuga ullam est expedita quasi magni exercitationem hic
+      earum possimus, provident quae perferendis, voluptate veniam et modi
+      asperiores libero!
+    </p>
   </div>
 
   <div class="post__footer">
-      <ul class="post__data">
-          <li class="post__data-item">
-              <time datetime="2020-06-21 19:20">21.06.2020</time>
-          </li>
-          <li class="post__data-item">
-              <a href="#">продвижение видео</a>
-          </li>
-      </ul>
+    <ul class="post__data">
+      <li class="post__data-item">
+        <time datetime="2020-06-21 19:20">21.06.2020</time>
+      </li>
+      <li class="post__data-item">
+        <a href="#">конференции</a>
+      </li>
+    </ul>
 
-      <a class="post__read" href="#">оставить комментарий</a>
+    <a class="post__read" href="post.html">читать</a>
   </div><!-- /.post__footer -->
 </article><!-- /.post -->
-
-
-
-<!-- Post-5 -->
-<article class="post">
-  <div class="post__header">
-      <a href="#">
-          <img class="post__preview" src="assets/img/posts/post-3.jpg" alt="Как я сходил на FrontEnd Conf 2021">
-      </a>
-  </div>
-
-  <div class="post__content">
-      <h2 class="post__title">
-          <a href="#">Как я сходил на FrontEnd Conf 2021</a>
-      </h2>
-      <p class="post__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus facilis repellat fuga ullam est expedita quasi magni exercitationem hic earum possimus, provident quae perferendis, voluptate veniam et modi asperiores libero!</p>
-  </div>
-
-  <div class="post__footer">
-      <ul class="post__data">
-          <li class="post__data-item">
-              <time datetime="2020-06-21 19:20">21.06.2020</time>
-          </li>
-          <li class="post__data-item">
-              <a href="#">конференции</a>
-          </li>
-      </ul>
-
-      <a class="post__read" href="#">читать</a>
-  </div><!-- /.post__footer -->
-</article><!-- /.post -->
-
-
 
 <!-- Pagination -->
 <ul class="pagination">
   <li class="pagination__item">
-      <a class="pagination__link" href="!#">&lt;</a>
+    <a class="pagination__link" href="!#">&lt;</a>
   </li>
 
   <li class="pagination__item">
-      <a class="pagination__link" href="!#">1</a>
+    <a class="pagination__link" href="!#">1</a>
   </li>
 
   <li class="pagination__item">
-      <a class="pagination__link  active" href="!#">2</a>
+    <a class="pagination__link active" href="!#">2</a>
   </li>
 
   <li class="pagination__item">
-      <a class="pagination__link" href="!#">3</a>
+    <a class="pagination__link" href="!#">3</a>
   </li>
 
   <li class="pagination__item">
-      <a class="pagination__link" href="!#">&gt;</a>
+    <a class="pagination__link" href="!#">&gt;</a>
   </li>
-</ul
-
-
+</ul>
 </div>
       </main>
     </div>
