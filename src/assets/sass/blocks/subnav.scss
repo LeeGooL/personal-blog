@@ -4,7 +4,7 @@
   left: 0;
 
   display: none;
-  width: 165px;
+  width: 16.5rem;
   padding: 0.5rem 0;
 
   background-color: $blue;
@@ -20,9 +20,11 @@
   color: $white;
   text-decoration: none;
 
-  transition: background-color 0.3s linear;
+  transition: background-color 0.2s ease-in-out;
 
   &:hover {
+    text-decoration: none;
+
     background-color: darken($blue, 5%);
   }
 }

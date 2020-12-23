@@ -1,7 +1,7 @@
 .related {
   padding-bottom: 0.5rem;
 
-  border-bottom: 1px solid #c1c1c1;
+  border-bottom: 1px solid #1c1c1c;
 }
 
 .related__list {
@@ -25,11 +25,6 @@
 
   a {
     color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
   }
 }
 

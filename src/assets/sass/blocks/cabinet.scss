@@ -23,11 +23,11 @@
 
   cursor: pointer;
 
-  &:hover {
-    text-decoration: none;
-  }
-
   input {
     display: none;
+  }
+
+  &:hover {
+    text-decoration: none;
   }
 }

@@ -9,7 +9,7 @@
 }
 
 .work__preview {
-  max-width: 31rem;
+  width: 31rem;
 
   img {
     display: block;
@@ -23,7 +23,7 @@
 .work__content {
   display: flex;
   flex-direction: column;
-  max-width: 290px;
+  max-width: 29rem;
   padding: 2.5rem;
 }
 
@@ -43,7 +43,7 @@
   margin-bottom: 3rem;
 
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.68;
   color: #d2d2d2;
 }

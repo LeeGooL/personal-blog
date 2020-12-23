@@ -7,6 +7,8 @@
 
   &:hover {
     .nav__link {
+      text-decoration: none;
+
       background-color: $blue;
     }
 
@@ -18,7 +20,7 @@
 
 .nav__link {
   display: block;
-  padding: 1.35em;
+  padding: 1.35rem;
 
   font-size: 1.1rem;
   line-height: 1.2;
@@ -27,7 +29,6 @@
   text-decoration: none;
 
   transition: background-color 0.2s linear;
-
 
   &.has-subnav {
     position: relative;

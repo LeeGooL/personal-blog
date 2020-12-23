@@ -10,7 +10,7 @@
 
   margin-bottom: 1.5rem;
 
-  &--medium {
+  &--md {
     margin-bottom: 2.5rem;
   }
 }
@@ -18,7 +18,7 @@
 .form__control {
   display: block;
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 0 0.75rem;
 
   font-size: 1.4rem;
   font-family: inherit;
@@ -57,7 +57,7 @@
 
   background-color: $blue;
 
-  transition: width 0.3s linear;
+  transition: width 0.2s linear;
 }
 
 .form__footer {
@@ -79,10 +79,5 @@
 
   a {
     color: $white;
-    text-decoration: underline;
-
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
