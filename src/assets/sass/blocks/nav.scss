@@ -1,14 +1,15 @@
 .nav {
+  &--mobile {
+    display: none;
+    margin: 3rem 0;
+  }
+  
   @include breakpoint($tablet-bp) {
     display: none;
 
     &--mobile {
       display: block;
     }
-  }
-  &--mobile {
-    display: none;
-    margin: 3rem 0;
   }
 }
 
@@ -22,6 +23,8 @@
 
 .nav__item {
   position: relative;
+
+  
 
   &:hover {
     .nav__link {
@@ -55,6 +58,8 @@
   text-decoration: none;
 
   transition: background-color 0.2s linear;
+
+  
 
   &.has-subnav {
     position: relative;

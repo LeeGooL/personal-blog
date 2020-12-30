@@ -5,6 +5,12 @@
   grid-column-gap: 13px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 195px;
+
+  @include breakpoint($mobile-bp) {
+    overflow: auto;
+
+    grid-template-columns: 140px 140px 140px 140px;
+  }
 }
 
 .stories__item {
@@ -84,9 +90,3 @@
 
   text-align: right;
 }
-
-
-
-
-
-
